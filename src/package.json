@@ -1,0 +1,16 @@
+{
+  "title": "Afiliati",
+  "name": "afiliati",
+  "version": "0.0.1",
+  "description": "No more affiliate links (ro)",
+  "main": "index.js",
+  "author": "v",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "WTFPL",
+  "keywords": [
+    "jetpack"
+  ]
+}
