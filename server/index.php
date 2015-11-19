@@ -16,6 +16,7 @@ switch(1) {
 		}
 	break;
 	case (strpos($url, 'profitshare.ro/l/') === 0):
+	case (strpos($url, 'profitshare.ro/cl/') === 0):
 		$do = get($url, true);
 		if(preg_match('/location.replace\(\'([^\'\?]+)/', $do[1], $match)) {
 			echo $match[1];

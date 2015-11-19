@@ -11,7 +11,7 @@ var panel = require("sdk/panel").Panel({
 	focus: false
 });
 
-var list = ["profitshare.ro/l/", "campanii.emag.ro/click.php", "event.2parale.ro/events/click"];
+var list = ["profitshare.ro/l/", "profitshare.ro/cl/", "campanii.emag.ro/click.php", "event.2parale.ro/events/click"];
 function is_afiliat(url) {
 	for (var i=list.length; i--;) {
 		if(url.substring(0, list[i].length) === list[i]) {
